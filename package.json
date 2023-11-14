@@ -1,0 +1,17 @@
+{
+  "name": "my-kafka-app",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "start": "bun run index.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
